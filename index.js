@@ -14,10 +14,8 @@ const fileUpload = require("express-fileupload");
 
 const PORT=process.env.PORT || 8800
 
-// Config
-if (process.env.NODE_ENV !== "PRODUCTION") {
-  require("dotenv").config({ path: "configuration/config.env" });
-}
+
+
 
 // Handling Uncaught Exception
 process.on("uncaughtException", (err) => {
@@ -45,12 +43,19 @@ app.use('/api/v1/user',userRoute)
 app.use('/api/v1/orders',orders)
 app.use('/api/v1/payment',payment)
 
-app.use(express.static(path.join(__dirname, "./client/build")));
+// Config
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "./client/build")));
 
-
-app.get("*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "./client/build/index.html"));
-});
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
+  });
+ 
+}else{
+  app.get("/",(req,res)=>{
+    res.send("Api running")
+  })
+}
 
 // Middleware for error
 app.use(errorMiddleware)

@@ -1,0 +1,28 @@
+.mobile-top-header{
+    background-color: var(--main_grey_color);
+}
+.mobile-top-header p{
+    text-align: center;
+}
+
+.mobile-header-contact {
+    user-select: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50%;
+}
+.mobile-header-social-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile-header-social-icons a{
+    padding: 5px 10px;
+}

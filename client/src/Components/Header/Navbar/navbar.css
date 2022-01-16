@@ -1,0 +1,40 @@
+.navbar{
+    background-color: var(--main_grey_color);
+}
+
+button.navbar-offcanvas {
+    border: none;
+    background: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.mega-menu{
+    width: 800px;
+}
+.sidebar-about-contact {
+    user-select: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100%;
+}
+.sidebar-about-social-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar-about-social-icons a{
+    padding: 5px 10px;
+}
+.fabar{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

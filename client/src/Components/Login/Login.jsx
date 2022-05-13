@@ -45,8 +45,6 @@ const Login = () => {
               <div className="mb-3 ">
                 <label for="exampleFormControlInput1" className="form-label">
                   Email address
-                  shopcorner@example.com
-                  shopcorner
                 </label>
                 <input
                   type="email"

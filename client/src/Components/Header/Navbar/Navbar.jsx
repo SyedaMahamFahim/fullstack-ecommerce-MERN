@@ -44,7 +44,7 @@ const Navbar = () => {
                 <div className="offcanvas-body">
                   <div className="container">
                     <p className="lead">
-                      At ShopCorner, we put a strong emphasis on simplicity,
+                      At OSS, we put a strong emphasis on simplicity,
                       quality and usefulness of fashion products over other
                       factors. Our fashion items never get outdated. They are
                       not short-lived as normal fashion clothes. Some text as
@@ -52,7 +52,7 @@ const Navbar = () => {
                       have chosen. Like, text, images, lists, etc.
                     </p>
                     <div className="sidebar-about-contact">
-                      <Link to="/shop">contact@shopcorner.com</Link>
+                      <Link to="/shop">contact@OSS.com</Link>
                       <h3>(+00) 123 567990</h3>
                       <div className="sidebar-about-social-icons">
                         <Link to="/face">

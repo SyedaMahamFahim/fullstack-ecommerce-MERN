@@ -59,7 +59,7 @@ const FooterLinksData = [
     },
     {
         id: 10,
-        title: `ShopCorner Store Pakistan NED`,
+        title: `OSS Store Pakistan NED`,
         category: "Contact",
         iconName: GrLocation,
         url: "/contact"

@@ -9,14 +9,14 @@ export const Topheader = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-2"> <p>
-                            Welcome to ShopCorner</p>
+                            Welcome to OSS</p>
                         </div>
                         <div className="col-2"> <p>
                             <BiPhoneCall /> +92-1234-45056</p>
                         </div>
                         <div className="col-6">
                             <p >
-                                <AiOutlineMail /> contact@shopcorner.com</p>
+                                <AiOutlineMail /> contact@OSS.com</p>
                         </div>
                     </div>
                 </div>

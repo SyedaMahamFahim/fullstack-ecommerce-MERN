@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className="copyright-footer">
-        <p className="copyright">&copy; 2020-21 ShopCorner</p>
+        <p className="copyright">&copy; 2020-21 OSS</p>
       </div>
     </>
   );

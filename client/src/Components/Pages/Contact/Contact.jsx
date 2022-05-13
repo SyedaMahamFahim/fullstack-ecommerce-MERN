@@ -36,7 +36,7 @@ const Contact = () => {
           <div className="contact-content">
             <h5 className="contact-content-titles">Quick Contact</h5>
             <p> Mobile: (+88) – 1990 – 6886 Hotline: 1800 – 1102</p>
-            <p> contact@shopcorner.com</p>
+            <p> contact@OSS.com</p>
           </div>
         </div>
         <div className="contact-address-info">

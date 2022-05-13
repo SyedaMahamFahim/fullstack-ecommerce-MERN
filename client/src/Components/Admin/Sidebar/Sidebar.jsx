@@ -12,7 +12,7 @@ const Sidebar = () => {
     <>
       <div className="sidebar">
         <Link to="/">
-          <h1>ShopCorner</h1>
+          <h1>OSS</h1>
         </Link>
 
         <Link to="/admin/products">

@@ -19,7 +19,7 @@ const MobileHeader = ({ user }) => {
           <div className="row">
             <p>
               <BiPhoneCall /> +92-1234-45056 || <AiOutlineMail />{" "}
-              contact@shopcorner.com
+              contact@OSS.com
             </p>
           </div>
         </div>
@@ -100,7 +100,7 @@ const MobileHeader = ({ user }) => {
                         )}
                       </ul>
                       <div className="mobile-header-contact">
-                        <Link to="/shop">contact@shopcorner.com</Link>
+                        <Link to="/shop">contact@OSS.com</Link>
                         <h3>(+00) 123 567990</h3>
                         <div className="mobile-header-social-icons">
                           <Link to="/face">

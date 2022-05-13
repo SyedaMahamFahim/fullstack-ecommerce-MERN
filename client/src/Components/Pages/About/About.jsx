@@ -53,7 +53,7 @@ const About = () => {
                 </div>
                 <div className="about-details">
                   <h5 className="mt-4">EMAIL</h5>
-                  <p className="lead">shopcorner@gmail.com</p>
+                  <p className="lead">OSS@gmail.com</p>
                 </div>
               </div>
               <div className="about-col">

@@ -49,7 +49,7 @@ const Header = ({ user, loading }) => {
   }
   return (
     <>
-    Hello world
+    <h1>Hellow rordl</h1>
       <div className="main__header">
         <Topheader />
         <section className="header mt-3">
